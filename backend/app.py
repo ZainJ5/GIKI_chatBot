@@ -61,7 +61,7 @@ class ChatbotApp:
             raise
 
     def setup_config(self):
-        self.OPENAI_API_KEY = "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"
+        self.OPENAI_API_KEY = "Open_AI-API-KEY"
         if not self.OPENAI_API_KEY:
             logger.error("OpenAI API key not found in environment variables")
             raise ValueError("OpenAI API key not set in environment variables")
